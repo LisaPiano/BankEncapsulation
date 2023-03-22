@@ -8,7 +8,7 @@ namespace BankEncapsulation
 {
     public class BankAccount
     {
-        private double balance;
+        private double balance = 300;
         public void Deposit(double depositAmount)
         {
             balance += depositAmount;
